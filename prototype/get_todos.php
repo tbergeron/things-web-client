@@ -17,9 +17,14 @@ function prepare_script($lines)
 
 function clean_parsed_strings($str)
 {
+    // removing applescript quirks
     $str = str_replace('"}', '', $str);
+    $str = str_replace('{', '', $str);
     $str = str_replace('},', '', $str);
     $str = str_replace('}}', '', $str);
+    // remove trailing spaces and comma
+    $str = rtrim($str);
+    $str = rtrim($str, ',');
     return $str;
 }
 
@@ -34,8 +39,12 @@ function parse_todos_response($response)
         $notes = explode('{notes:"', $todo);
 
         $todo = [];
-        $todo['name'] = clean_parsed_strings($notes[0]);
-        $todo['notes'] = clean_parsed_strings($notes[1]);
+    
+        if (isset($notes[0]))
+            $todo['name'] = clean_parsed_strings($notes[0]);
+    
+        if (isset($notes[1]))
+            $todo['notes'] = clean_parsed_strings($notes[1]);
 
         array_push($elements, $todo);
     }
@@ -67,4 +76,30 @@ function run_get_todos()
     return parse_todos_response($response);
 }
 
-die(print_r(run_get_todos()));
+$todos = run_get_todos();
+?>
+
+<html>
+    <head>
+        <title>Things Web App Demo</title>
+    </head>
+    <body>
+        <h1>Things App Tasks!</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                </tr>                
+            </thead>
+            <tbody>
+                <?php foreach ($todos as $todo): ?>
+                <tr>
+                    <td>
+                        <?php echo $todo['name']; ?>
+                    </td>
+                </tr>
+                <?php endforeach; ?>                
+            </tbody>
+        </table>
+    </body>
+</html>
