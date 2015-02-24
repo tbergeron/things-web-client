@@ -1,0 +1,73 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="666" measuredH="601" mockupW="620" mockupH="544">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::IconLabel" x="46" y="120" w="-1" h="-1" measuredW="68" measuredH="63" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Things%20App</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="249" y="120" w="-1" h="-1" measuredW="69" measuredH="63" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>AppleScript</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::IconLabel" x="444" y="120" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bash</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::IconLabel" x="618" y="120" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PHP</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Arrow" x="129" y="140" w="96" h="10" measuredW="150" measuredH="100" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Arrow" x="333" y="140" w="96" h="10" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Arrow" x="507" y="140" w="96" h="10" measuredW="150" measuredH="100" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="46" y="360" w="587" h="52" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Idea%3A%20Local%20PHP%20installation%20running%20with%20%22PHP%20-S%22%20a%20Laravel%20PHP%20app.%20Making%20it%20available%20over%20LAN.%0A%20%0APHP%20would%20exec%28%29%20%22osascript%22%20%28AppleScript%29%20thus%20skip%20the%20Bash+AppleScript%20part.</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="46" y="81" w="247" h="24" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Prototype%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::IconLabel" x="46" y="270" w="-1" h="-1" measuredW="68" measuredH="63" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Things%20App</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::IconLabel" x="249" y="270" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PHP</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Arrow" x="129" y="290" w="96" h="10" measuredW="150" measuredH="100" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="46" y="231" w="247" h="24" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Prototype%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="46" y="443" w="544" h="158" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Example%20osascript/AppleScript%3A%0A%20%0Atell%20application%20%22Things%22%0A%20%20%20%20repeat%20with%20toDo%20in%20to%20dos%0A%20%20%20%20%20%20%20%20%21%20%21%20---%20do%20something%20with%20each%20to%20do%20using%20toDo%20variable%0A%20%20%20%20end%20repeat%0A%20%20%20%20set%20todo_things%20to%20to%20do%20named%20%22Things%22%0Aend%20tell%0A%20%0AWe%20should%20be%20able%20to%20get%20all%20todos%20by%20merging%20them%20into%20an%20array%2C%20json%20style.</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="345" y="140" w="72" h="54" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sucks%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Paragraph" x="129" y="270" w="105" h="24" measuredW="200" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>exec%28osascript%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Paragraph" x="417" y="57" w="247" h="24" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20%20%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
