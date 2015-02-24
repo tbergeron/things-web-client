@@ -47,12 +47,12 @@ function parse_todos_response($response)
 function run_get_todos()
 {
     // applescript: get all todos data
+    // location: /prototype/scripts/get_todos.scpt
     $c = [];
     $c[] = 'tell application "Things"';
     $c[] = 'set todos to {}';
     $c[] = 'repeat with todo in to dos';
     $c[] = 'copy {{name:name of todo}, {notes: notes of todo}} to the end of todos';
-    // $c[] = 'copy {name:name of todo, notes:notes of todo, due_date:due date of todo} to the end of todos';
     $c[] = 'end repeat';
     $c[] = 'return todos';
     $c[] = 'end tell';
